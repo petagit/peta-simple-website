@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface Article {
   title: string;
@@ -18,6 +19,7 @@ interface NewsData {
 }
 
 export default function SEONewsHub() {
+  const router = useRouter();
   const [newsData, setNewsData] = useState<NewsData | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string>('all');
 
@@ -106,35 +108,38 @@ export default function SEONewsHub() {
       {/* News Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredArticles.map((article, i) => (
-            <a
-              key={i}
-              href={article.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500/50 hover:bg-white/10 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
-            >
-              <div className="flex items-start justify-between mb-3">
-                <span className="text-xs px-2 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">
-                  {article.age}
-                </span>
-                <span className="text-blue-400 group-hover:translate-x-1 transition-transform">→</span>
-              </div>
-              
-              <h2 className="text-lg font-bold mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors">
-                {article.title}
-              </h2>
-              
-              <p className="text-sm text-gray-400 line-clamp-3 mb-3">
-                {article.description}
-              </p>
-              
-              <div className="flex items-center justify-between text-xs text-gray-500">
-                <span className="truncate">{new URL(article.url).hostname}</span>
-                <span>📊 {article.query}</span>
-              </div>
-            </a>
-          ))}
+          {filteredArticles.map((article, i) => {
+            // Find the original index in the full articles array
+            const originalIndex = newsData?.articles.findIndex(a => a.url === article.url) ?? i;
+            
+            return (
+              <button
+                key={i}
+                onClick={() => router.push(`/article/${originalIndex}`)}
+                className="group p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500/50 hover:bg-white/10 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20 text-left w-full"
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <span className="text-xs px-2 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">
+                    {article.age}
+                  </span>
+                  <span className="text-blue-400 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
+                
+                <h2 className="text-lg font-bold mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors">
+                  {article.title}
+                </h2>
+                
+                <p className="text-sm text-gray-400 line-clamp-3 mb-3">
+                  {article.description}
+                </p>
+                
+                <div className="flex items-center justify-between text-xs text-gray-500">
+                  <span className="truncate">{new URL(article.url).hostname}</span>
+                  <span>📊 {article.query}</span>
+                </div>
+              </button>
+            );
+          })}
         </div>
       </div>
 
