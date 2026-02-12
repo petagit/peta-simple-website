@@ -21,7 +21,7 @@ if [ -f data/seo-news.json ]; then
   
   # Send Telegram notification
   SUMMARY=$(cat /tmp/seo-news-update.txt | tail -15)
-  openclaw cron wake --text "📰 SEO News Updated!
+  openclaw gateway wake --text "📰 SEO News Updated!
 
 $SUMMARY
 
