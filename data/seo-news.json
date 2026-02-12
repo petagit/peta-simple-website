@@ -1,70 +1,126 @@
 {
-  "lastUpdated": "2026-02-12T17:24:00.000Z",
+  "lastUpdated": "2026-02-12T17:32:00.000Z",
   "articles": [
     {
-      "title": "Google Algorithm Update: February 2026 Core Update Rolling Out",
-      "url": "https://searchengineland.com/google-core-update-feb-2026",
-      "description": "Google has begun rolling out a major core algorithm update affecting search rankings globally. Early data shows significant fluctuations in rankings across multiple industries.",
+      "title": "SEO & Google Algorithm Updates & Changes 2026",
+      "url": "https://www.found.co.uk/blog/seo-landscape-and-google-algorithm-updates/",
+      "description": "The February 2026 Discover Core Update highlights Google's continued efforts to surface high-quality, relevant content within the Discover experience. Google began rolling out its December 2025 Core Algorithm Update on December 11.",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "2 hours ago"
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 day ago"
     },
     {
-      "title": "Core Web Vitals: New INP Metric Replaces FID",
-      "url": "https://web.dev/inp-cwv-update",
-      "description": "Google officially replaces First Input Delay (FID) with Interaction to Next Paint (INP) as a Core Web Vitals metric. Sites need to optimize for faster interactions.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "5 hours ago"
+      "title": "Google's February 2026 Core Update",
+      "url": "https://digitalwarbleint.com/googles-february-2026-core-update/",
+      "description": "In February 2026, that paradigm will alter significantly and will stock the algorithms with higher content based on negative sentiment. Google's updated policies on Discover state that any use of titles that elicit 'morbid curiosity' will be downranked.",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "2 days ago"
     },
     {
-      "title": "SEO Ranking Factors 2026: What Really Matters",
-      "url": "https://moz.com/seo-ranking-factors-2026",
-      "description": "Our annual study reveals the top ranking factors for 2026. E-E-A-T, user engagement, and AI-generated content detection lead the list.",
+      "title": "Google's February 2026 Core Update - Information Gain Signal",
+      "url": "https://digitalwarbleint.com/googles-february-2026-core-update/",
+      "description": "The increased weighting of 'Information Gain' as a ranking signal is a core element of the February 2026 update. Information Gain is a measure of the new, unique information that your content provides.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "1 day ago"
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "2 days ago"
     },
     {
-      "title": "Google Search Console Adds New Performance Insights",
-      "url": "https://support.google.com/webmasters/gsc-updates",
-      "description": "Search Console now provides deeper insights into page experience, including detailed INP breakdowns and mobile usability improvements.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "3 hours ago"
+      "title": "8 Types of Local SEO Ranking Factors for 2026",
+      "url": "https://rankomedia.com/blog/local-seo-ranking-factors/",
+      "description": "Google weighs ranking factors differently based on the purpose of the user's search query. The Google Business Profile is the most significant driver of SEO success for businesses that leverage local SEO in 2026.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "6 days ago"
     },
     {
-      "title": "AI-Generated Content: Google's Detection Methods Revealed",
-      "url": "https://searchenginejournal.com/ai-content-detection-2026",
-      "description": "Internal documents reveal how Google identifies and treats AI-generated content. Quality and originality remain the primary factors.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "6 hours ago"
+      "title": "Top 7 SEO Benefits That Matter Most in 2026",
+      "url": "https://www.seodiscovery.com/blog/seo-benefits-that-matter/",
+      "description": "The relevance of the content and the value of the information are crucial. Giving a unique point of view, which is not just a copy of other websites, is the main factor for the 2026 rankings.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "3 days ago"
     },
     {
-      "title": "Mobile-First Indexing: Desktop Sites No Longer Crawled",
-      "url": "https://developers.google.com/search/mobile-first",
-      "description": "Google completes its transition to mobile-first indexing. Desktop-only sites will see significant ranking drops.",
-      "query": "Google algorithm update",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "1 day ago"
+      "title": "SEO Ranking: What It Is & How to Improve in 2026",
+      "url": "https://upgrowth.in/seo-ranking-guide-2026/",
+      "description": "Ranking well is harder than ever: over 96% of web pages receive zero organic traffic, while the top three results capture more than 54% of all clicks. Understanding modern ranking factors is critical.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 week ago"
     },
     {
-      "title": "Local SEO Update: Google Maps Rankings Algorithm Change",
-      "url": "https://localseoguide.com/maps-algorithm-update",
-      "description": "Major changes to Google Maps ranking algorithm emphasize review velocity, response time, and user engagement metrics.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "8 hours ago"
+      "title": "Top 5 SEO Strategies That Will Dominate in 2026",
+      "url": "https://itxitpro.com/blog/top-5-seo-strategies",
+      "description": "Google's algorithms are becoming more sophisticated. Including keywords won't be enough—Google will prioritize content that demonstrates firsthand experience and subject-matter expertise (E-E-A-T).",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "3 days ago"
     },
     {
-      "title": "Page Speed Update: New Thresholds for Core Web Vitals",
-      "url": "https://web.dev/cwv-thresholds-2026",
-      "description": "Google announces stricter thresholds for LCP, CLS, and INP. Sites must meet new standards by Q3 2026 to maintain rankings.",
+      "title": "Core Web Vitals 3.0 Prioritizes AI-Readiness",
+      "url": "https://www.websitehostreview.com/troubleshooting/speed-core-web-vitals/brotli-vs-gzip-2026-benchmarks/",
+      "description": "Google's Core Web Vitals 3.0 now prioritizes Semantic Information Gain and AI-readiness. The compression method you choose (Brotli vs Gzip) directly impacts your visibility in Search Generative Experiences (SGE).",
       "query": "core web vitals",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "4 hours ago"
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 week ago"
+    },
+    {
+      "title": "Complete SEO Guide for 2026: Core Web Vitals in the AI Search Era",
+      "url": "https://linksurge.jp/blog/en/seo-guide-2026/",
+      "description": "Technical SEO checklist for 2026 includes crawl budget optimization, updated XML sitemaps, and Core Web Vitals optimization to ensure priority pages are indexed first in the AI search era.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "3 days ago"
+    },
+    {
+      "title": "Nearly 79% of Dealer Websites Perform Poorly on Core Web Vitals",
+      "url": "https://powersportsbusiness.com/news/dealers/2026/02/05/nearly-79-of-dealer-websites-perform-poorly-overfuel-reports/",
+      "description": "The 2026 report analyzed 1,519 powersports dealer websites across North America. Core Web Vitals uses field-data metrics that measure a webpage's loading performance, responsiveness, and visual stability.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 week ago"
+    },
+    {
+      "title": "Everything You Need to Know About Core Web Vitals (Updated Feb 9, 2026)",
+      "url": "https://www.assisted.co.uk/insight/everything-you-need-to-know-about-core-web-vitals-assisted/",
+      "description": "User experience (UX) is probably one of the most important parts of optimising your website, being something that Google continues to measure in terms of the quality of your site through Core Web Vitals.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "3 days ago"
+    },
+    {
+      "title": "Google Pushes AI Shopping Features in Search and Gemini Chatbot",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/google-pushes-ai-shopping-features-in-search-and-gemini-chatbot",
+      "description": "A new feature called Direct Offers within AI Mode will allow brands to offer discounts to potential shoppers. Major update to Google Search announced February 11, 2026.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Search Console: 2026 Setup and SEO Wins",
+      "url": "https://influencerdb.net/analytics/google-search-console/",
+      "description": "The Pages report (Indexing) tells you what Google indexed, what it excluded, and why. In 2026, you should treat indexing like inventory management: if a page is meant to drive demand, it must be indexable, canonicalized correctly, and internally linked.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "4 days ago"
+    },
+    {
+      "title": "Discover the Top 10 Features of Google Search Console",
+      "url": "https://www.sanoopbalan.com/blog/google-search-console-features",
+      "description": "Tracking average position over time reveals ranking trends and the impact of SEO changes or algorithm updates. GSC provides detailed crawl, index, and serving information about specific pages, allowing users to request indexing for new or updated content.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "1 week ago"
+    },
+    {
+      "title": "Google Search Console: Your Complete Guide to GSC in 2026",
+      "url": "https://www.wix.com/seo/learn/resource/what-is-google-search-console",
+      "description": "Search Console will tell you about the status of individual pages on your site. There are three main steps: Discovered (Google is aware), Crawled (Google visited), and Indexed (page can appear in search results).",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-12T17:32:00.000Z",
+      "age": "2 days ago"
     }
   ],
-  "totalArticles": 8
+  "totalArticles": 15
 }
