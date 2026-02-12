@@ -25,7 +25,7 @@ if [ -f data/seo-news.json ]; then
 
 $SUMMARY
 
-Live: https://peta-simple-website.vercel.app" --mode now
+🔗 Live: https://peta-simple-website.vercel.app/" --mode now
   
   echo "✉️ Telegram notification sent"
 else
