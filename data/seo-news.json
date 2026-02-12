@@ -1,0 +1,70 @@
+{
+  "lastUpdated": "2026-02-12T17:24:00.000Z",
+  "articles": [
+    {
+      "title": "Google Algorithm Update: February 2026 Core Update Rolling Out",
+      "url": "https://searchengineland.com/google-core-update-feb-2026",
+      "description": "Google has begun rolling out a major core algorithm update affecting search rankings globally. Early data shows significant fluctuations in rankings across multiple industries.",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "2 hours ago"
+    },
+    {
+      "title": "Core Web Vitals: New INP Metric Replaces FID",
+      "url": "https://web.dev/inp-cwv-update",
+      "description": "Google officially replaces First Input Delay (FID) with Interaction to Next Paint (INP) as a Core Web Vitals metric. Sites need to optimize for faster interactions.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "5 hours ago"
+    },
+    {
+      "title": "SEO Ranking Factors 2026: What Really Matters",
+      "url": "https://moz.com/seo-ranking-factors-2026",
+      "description": "Our annual study reveals the top ranking factors for 2026. E-E-A-T, user engagement, and AI-generated content detection lead the list.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Search Console Adds New Performance Insights",
+      "url": "https://support.google.com/webmasters/gsc-updates",
+      "description": "Search Console now provides deeper insights into page experience, including detailed INP breakdowns and mobile usability improvements.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "3 hours ago"
+    },
+    {
+      "title": "AI-Generated Content: Google's Detection Methods Revealed",
+      "url": "https://searchenginejournal.com/ai-content-detection-2026",
+      "description": "Internal documents reveal how Google identifies and treats AI-generated content. Quality and originality remain the primary factors.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "6 hours ago"
+    },
+    {
+      "title": "Mobile-First Indexing: Desktop Sites No Longer Crawled",
+      "url": "https://developers.google.com/search/mobile-first",
+      "description": "Google completes its transition to mobile-first indexing. Desktop-only sites will see significant ranking drops.",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Local SEO Update: Google Maps Rankings Algorithm Change",
+      "url": "https://localseoguide.com/maps-algorithm-update",
+      "description": "Major changes to Google Maps ranking algorithm emphasize review velocity, response time, and user engagement metrics.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "8 hours ago"
+    },
+    {
+      "title": "Page Speed Update: New Thresholds for Core Web Vitals",
+      "url": "https://web.dev/cwv-thresholds-2026",
+      "description": "Google announces stricter thresholds for LCP, CLS, and INP. Sites must meet new standards by Q3 2026 to maintain rankings.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-12T17:24:00.000Z",
+      "age": "4 hours ago"
+    }
+  ],
+  "totalArticles": 8
+}

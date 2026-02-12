@@ -1,89 +1,149 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function Home() {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isVisible, setIsVisible] = useState(false);
+interface Article {
+  title: string;
+  url: string;
+  description: string;
+  query: string;
+  publishedAt: string;
+  age: string;
+}
+
+interface NewsData {
+  lastUpdated: string;
+  articles: Article[];
+  totalArticles: number;
+}
+
+export default function SEONewsHub() {
+  const [newsData, setNewsData] = useState<NewsData | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string>('all');
 
   useEffect(() => {
-    setIsVisible(true);
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    // Load news data
+    fetch('/api/news')
+      .then(res => res.json())
+      .then(data => setNewsData(data))
+      .catch(err => console.error('Failed to load news:', err));
   }, []);
 
+  if (!newsData) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
+        <div className="text-white text-2xl">Loading SEO news...</div>
+      </div>
+    );
+  }
+
+  const topics = Array.from(new Set(newsData.articles.map(a => a.query)));
+  const filteredArticles = selectedTopic === 'all' 
+    ? newsData.articles 
+    : newsData.articles.filter(a => a.query === selectedTopic);
+
+  const lastUpdated = new Date(newsData.lastUpdated).toLocaleString('en-US', {
+    timeZone: 'America/Vancouver',
+    dateStyle: 'medium',
+    timeStyle: 'short'
+  });
+
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-hidden">
-      {/* Animated gradient blob */}
-      <div 
-        className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300"
-        style={{
-          background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(139, 92, 246, 0.15), transparent 40%)`
-        }}
-      />
-
-      {/* Hero Section */}
-      <section className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className={`max-w-5xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 animate-pulse">
-            Welcome to the Future
-          </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            A beautiful, modern landing page built with Next.js and Tailwind CSS
-          </p>
-          <button className="group relative px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50">
-            <span className="relative z-10">Get Started</span>
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </button>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="relative z-10 py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-            Amazing Features
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { icon: '🚀', title: 'Lightning Fast', desc: 'Built with Next.js for optimal performance' },
-              { icon: '🎨', title: 'Beautiful Design', desc: 'Stunning visuals with Tailwind CSS' },
-              { icon: '✨', title: 'Smooth Animations', desc: 'Delightful interactions throughout' }
-            ].map((feature, i) => (
-              <div
-                key={i}
-                className="group p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 hover:bg-white/10"
-                style={{ animationDelay: `${i * 200}ms` }}
-              >
-                <div className="text-6xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  {feature.icon}
-                </div>
-                <h3 className="text-2xl font-bold mb-2">{feature.title}</h3>
-                <p className="text-gray-400">{feature.desc}</p>
+    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
+      {/* Header */}
+      <header className="border-b border-white/10 bg-black/20 backdrop-blur-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl sm:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400">
+                🔍 SEO News Hub
+              </h1>
+              <p className="text-sm text-gray-400 mt-1">
+                Last updated: {lastUpdated} PST • {newsData.totalArticles} articles
+              </p>
+            </div>
+            <div className="text-right">
+              <div className="inline-block px-4 py-2 bg-green-500/20 rounded-full border border-green-500/30">
+                <span className="text-green-400 text-sm font-semibold">🔴 LIVE</span>
               </div>
-            ))}
+            </div>
           </div>
         </div>
-      </section>
+      </header>
 
-      {/* Interactive Element */}
-      <section className="relative z-10 py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="p-12 rounded-3xl bg-gradient-to-br from-purple-600/20 to-pink-600/20 backdrop-blur-sm border border-white/10">
-            <h3 className="text-3xl font-bold mb-4">Made with 🐸 by Frog</h3>
-            <p className="text-gray-300">
-              Built in seconds, deployed to the world ✨
-            </p>
-          </div>
+      {/* Topic Filters */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div className="flex flex-wrap gap-3">
+          <button
+            onClick={() => setSelectedTopic('all')}
+            className={`px-4 py-2 rounded-full font-medium transition-all ${
+              selectedTopic === 'all'
+                ? 'bg-blue-600 text-white'
+                : 'bg-white/5 text-gray-300 hover:bg-white/10'
+            }`}
+          >
+            All ({newsData.totalArticles})
+          </button>
+          {topics.map(topic => {
+            const count = newsData.articles.filter(a => a.query === topic).length;
+            return (
+              <button
+                key={topic}
+                onClick={() => setSelectedTopic(topic)}
+                className={`px-4 py-2 rounded-full font-medium transition-all ${
+                  selectedTopic === topic
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white/5 text-gray-300 hover:bg-white/10'
+                }`}
+              >
+                {topic} ({count})
+              </button>
+            );
+          })}
         </div>
-      </section>
+      </div>
+
+      {/* News Grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredArticles.map((article, i) => (
+            <a
+              key={i}
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500/50 hover:bg-white/10 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
+            >
+              <div className="flex items-start justify-between mb-3">
+                <span className="text-xs px-2 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">
+                  {article.age}
+                </span>
+                <span className="text-blue-400 group-hover:translate-x-1 transition-transform">→</span>
+              </div>
+              
+              <h2 className="text-lg font-bold mb-2 line-clamp-2 group-hover:text-blue-400 transition-colors">
+                {article.title}
+              </h2>
+              
+              <p className="text-sm text-gray-400 line-clamp-3 mb-3">
+                {article.description}
+              </p>
+              
+              <div className="flex items-center justify-between text-xs text-gray-500">
+                <span className="truncate">{new URL(article.url).hostname}</span>
+                <span>📊 {article.query}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
 
       {/* Footer */}
-      <footer className="relative z-10 py-8 text-center text-gray-400 border-t border-white/10">
-        <p>Built with Next.js + Tailwind CSS • Deployed on Vercel</p>
+      <footer className="border-t border-white/10 bg-black/20 backdrop-blur-sm py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+          <p>🐸 Built by Frog • Updates every 4 hours • Powered by Brave Search API</p>
+          <p className="mt-2">Next update in ~{Math.ceil((4 - (new Date().getHours() % 4)) % 4)} hours</p>
+        </div>
       </footer>
     </main>
   );
