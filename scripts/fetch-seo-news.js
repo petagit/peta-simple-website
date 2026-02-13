@@ -52,23 +52,53 @@ async function fetchSEONews() {
     }
   }
   
-  // Deduplicate by URL
-  const uniqueArticles = Array.from(
-    new Map(articles.map(a => [a.url, a])).values()
-  ).slice(0, 15); // Keep top 15
+  // Load existing articles
+  const dataDir = path.join(__dirname, '../data');
+  const dataFile = path.join(dataDir, 'seo-news.json');
+  let existingArticles = [];
   
-  console.log(`✅ Found ${uniqueArticles.length} unique articles`);
+  if (fs.existsSync(dataFile)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+      existingArticles = existing.articles || [];
+      console.log(`📚 Loaded ${existingArticles.length} existing articles`);
+    } catch (err) {
+      console.warn('⚠️ Could not load existing articles:', err.message);
+    }
+  }
+  
+  // Merge new articles with existing (dedupe by URL, keep newest)
+  const allArticles = [...articles, ...existingArticles];
+  const articleMap = new Map();
+  
+  // Keep the first occurrence of each URL (newest first in our array)
+  allArticles.forEach(article => {
+    if (!articleMap.has(article.url)) {
+      articleMap.set(article.url, article);
+    }
+  });
+  
+  const uniqueArticles = Array.from(articleMap.values());
+  
+  // Sort by publishedAt (newest first)
+  uniqueArticles.sort((a, b) => 
+    new Date(b.publishedAt) - new Date(a.publishedAt)
+  );
+  
+  // Keep max 100 articles to prevent infinite growth
+  const finalArticles = uniqueArticles.slice(0, 100);
+  
+  console.log(`✅ Total: ${finalArticles.length} articles (${articles.length} new, ${existingArticles.length} existing)`);
   
   // Save to data file
-  const dataDir = path.join(__dirname, '../data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
   
   const newsData = {
     lastUpdated: timestamp,
-    articles: uniqueArticles,
-    totalArticles: uniqueArticles.length
+    articles: finalArticles,
+    totalArticles: finalArticles.length
   };
   
   fs.writeFileSync(
