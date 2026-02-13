@@ -19,15 +19,8 @@ if [ -f data/seo-news.json ]; then
     echo "🚀 Pushed to GitHub (Vercel will auto-deploy)"
   fi
   
-  # Send Telegram notification
-  SUMMARY=$(cat /tmp/seo-news-update.txt | tail -15)
-  openclaw gateway wake --text "📰 SEO News Updated!
-
-$SUMMARY
-
-🔗 Live: https://peta-simple-website.vercel.app/" --mode now
-  
-  echo "✉️ Telegram notification sent"
+  # Notification is handled by cron job delivery
+  echo "✉️ Update complete - cron job will deliver summary"
 else
   echo "❌ Failed to generate news data"
   exit 1
