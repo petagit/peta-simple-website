@@ -22,6 +22,8 @@ export default function SEONewsHub() {
   const router = useRouter();
   const [newsData, setNewsData] = useState<NewsData | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [sortBy, setSortBy] = useState<'newest' | 'oldest'>('newest');
 
   useEffect(() => {
     // Load news data
@@ -40,9 +42,28 @@ export default function SEONewsHub() {
   }
 
   const topics = Array.from(new Set(newsData.articles.map(a => a.query)));
-  const filteredArticles = selectedTopic === 'all' 
+  
+  // Filter by topic
+  let filteredArticles = selectedTopic === 'all' 
     ? newsData.articles 
     : newsData.articles.filter(a => a.query === selectedTopic);
+  
+  // Filter by search query
+  if (searchQuery.trim()) {
+    const query = searchQuery.toLowerCase();
+    filteredArticles = filteredArticles.filter(a => 
+      a.title.toLowerCase().includes(query) ||
+      a.description.toLowerCase().includes(query) ||
+      a.url.toLowerCase().includes(query)
+    );
+  }
+  
+  // Sort by date
+  filteredArticles = [...filteredArticles].sort((a, b) => {
+    const dateA = new Date(a.publishedAt).getTime();
+    const dateB = new Date(b.publishedAt).getTime();
+    return sortBy === 'newest' ? dateB - dateA : dateA - dateB;
+  });
 
   const lastUpdated = new Date(newsData.lastUpdated).toLocaleString('en-US', {
     timeZone: 'America/Vancouver',
@@ -73,8 +94,69 @@ export default function SEONewsHub() {
         </div>
       </header>
 
+      {/* Search & Sort Controls */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
+        <div className="flex flex-col sm:flex-row gap-4">
+          {/* Search Bar */}
+          <div className="flex-1">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search articles..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full px-4 py-3 pl-12 rounded-lg bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+              />
+              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                🔍
+              </span>
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white transition-colors"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          </div>
+          
+          {/* Sort Controls */}
+          <div className="flex gap-2">
+            <button
+              onClick={() => setSortBy('newest')}
+              className={`px-4 py-3 rounded-lg font-medium transition-all ${
+                sortBy === 'newest'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-white/5 text-gray-300 hover:bg-white/10'
+              }`}
+            >
+              ↓ Newest
+            </button>
+            <button
+              onClick={() => setSortBy('oldest')}
+              className={`px-4 py-3 rounded-lg font-medium transition-all ${
+                sortBy === 'oldest'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-white/5 text-gray-300 hover:bg-white/10'
+              }`}
+            >
+              ↑ Oldest
+            </button>
+          </div>
+        </div>
+        
+        {/* Results Count */}
+        {(searchQuery || selectedTopic !== 'all') && (
+          <div className="mt-4 text-sm text-gray-400">
+            Showing {filteredArticles.length} of {newsData.totalArticles} articles
+            {searchQuery && ` matching "${searchQuery}"`}
+          </div>
+        )}
+      </div>
+
       {/* Topic Filters */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
         <div className="flex flex-wrap gap-3">
           <button
             onClick={() => setSelectedTopic('all')}
@@ -107,8 +189,28 @@ export default function SEONewsHub() {
 
       {/* News Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredArticles.map((article, i) => {
+        {filteredArticles.length === 0 ? (
+          <div className="text-center py-20">
+            <div className="text-6xl mb-4">🔍</div>
+            <h2 className="text-2xl font-bold mb-2">No articles found</h2>
+            <p className="text-gray-400 mb-6">
+              {searchQuery 
+                ? `No results for "${searchQuery}"`
+                : 'No articles in this category'}
+            </p>
+            <button
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedTopic('all');
+              }}
+              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition-colors"
+            >
+              Clear filters
+            </button>
+          </div>
+        ) : (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredArticles.map((article, i) => {
             // Find the original index in the full articles array
             const originalIndex = newsData?.articles.findIndex(a => a.url === article.url) ?? i;
             
@@ -140,7 +242,8 @@ export default function SEONewsHub() {
               </button>
             );
           })}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Footer */}
