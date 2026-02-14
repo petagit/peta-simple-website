@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-02-14T05:18:18.995Z",
+  "lastUpdated": "2026-02-14T09:18:38.143Z",
   "articles": [
     {
       "title": "Unconfirmed Google Update Wiping Out Top of Funnel Sites (Here’s What’s Surviving) - YouTube",
       "url": "https://www.youtube.com/watch?v=ujURQ6FwrqM",
       "description": "E954: We may be in the middle of another <strong>Google algorithm update</strong> - and for some sites, the impact has been severe.From February 5th to February 7th, one of m...",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "12 hours ago"
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "16 hours ago"
     },
     {
       "title": "Gemini 3 Deep Think Update Raises the Bar for Advanced AI Reasoning - Tech Edu Byte",
       "url": "https://www.techedubyte.com/gemini-3-deep-think-ai-reasoning-update/",
       "description": "Google has upgraded <strong>Gemini 3 Deep Think</strong> to strengthen its ability to solve complex scientific, mathematical, and engineering problems. Thank you for being",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "17 hours ago"
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "1 day ago"
     },
     {
       "title": "Fortress Publishes Annual Law Firm SEO Ranking Factors Guide for 2026",
       "url": "https://www.openpr.com/news/4389030/fortress-publishes-annual-law-firm-seo-ranking-factors-guide",
       "description": "The guide outlines 250+ ranking factors organized into ten comprehensive sections, including Google Organic Search optimization, Google Maps and Local Pack dominance, YouTube strategies, AI platform visibility (ChatGPT, Gemini, Perplexity), social media tactics, authority building, technical SEO, link building, analytics, and implementation frameworks.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
+      "publishedAt": "2026-02-14T09:18:38.143Z",
       "age": "1 day ago"
     },
     {
@@ -30,16 +30,48 @@
       "url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
       "description": "By 2004, search engines had incorporated a wide range of undisclosed factors in their ranking algorithms to reduce the impact of link manipulation. The leading search engines, Google, Bing, and Yahoo, do not disclose the algorithms they use to rank pages. Some SEO practitioners have studied ...",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "17 hours ago"
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Generative engine optimization - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+      "description": "Academic research auditing generative AI search engines has found that such systems draw heavily from news and media sources, with citation patterns exhibiting commercial and geographic bias. Search Engine Land described generative engine optimization as a multi-layered approach focused on answer-oriented content structure, consistent entity representation, and the reinforcement of authority signals across authoritative sources to support inclusion within AI-generated responses.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "9 hours ago"
     },
     {
       "title": "Boosting Bookings: SEO Tips for Restaurant Reservation Systems - GIS user technology news",
       "url": "https://gisuser.com/2026/02/boosting-bookings-seo-tips-for-restaurant-reservation-systems/",
       "description": "It’s a small touch, but these optimizations result in higher completed bookings and lower abandonment rates. SEO isn’t just about meta tags. Content matters. Pages that discuss dining experiences, menu highlights, and special events create context for search engines and customers alike.",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "6 hours ago"
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "10 hours ago"
+    },
+    {
+      "title": "PageSpeed Insights vs Speed Vitals (2026)",
+      "url": "https://greenpagespeed.co.uk/pagespeed-insights-vs-speedvitals/",
+      "description": "It measures the “big three” Core Web Vitals: <strong>Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP).</strong>",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Website Analytics Tools 101: Smart Traffic Monitoring Tips Using Free Tools",
+      "url": "https://www.techtimes.com/articles/314302/20260213/website-analytics-tools-101-smart-traffic-monitoring-tips-using-free-tools.htm",
+      "description": "It provides reports on indexing status, sitemaps, Core Web Vitals, mobile usability, and structured data issues that may impact visibility.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "SEO Agency First 90 Days: Month-by-Month Plan",
+      "url": "https://upgrowth.in/seo-agency-first-90-days-breakdown/",
+      "description": "Schema, internal linking, Core Web Vitals, indexation · Internal linking architecture built · Authority distributed across priority pages · Large ranking jumps · Major traffic spikes · Most content is still settling. Green flags · Consistent publishing ·",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-14T09:18:38.143Z",
+      "age": "1 day ago"
     },
     {
       "title": "Reuters Reuters | Breaking International News & Views",
@@ -48,22 +80,6 @@
       "query": "search engine optimization news",
       "publishedAt": "2026-02-14T05:18:18.995Z",
       "age": "2 hours ago"
-    },
-    {
-      "title": "PageSpeed Insights vs Speed Vitals (2026)",
-      "url": "https://greenpagespeed.co.uk/pagespeed-insights-vs-speedvitals/",
-      "description": "It measures the “big three” Core Web Vitals: <strong>Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP).</strong>",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Website Analytics Tools 101: Smart Traffic Monitoring Tips Using Free Tools",
-      "url": "https://www.techtimes.com/articles/314302/20260213/website-analytics-tools-101-smart-traffic-monitoring-tips-using-free-tools.htm",
-      "description": "It provides reports on indexing status, sitemaps, Core Web Vitals, mobile usability, and structured data issues that may impact visibility.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-14T05:18:18.995Z",
-      "age": "1 day ago"
     },
     {
       "title": "SEMrush vs Alternatives Gratuites : Fonctionnalités et Tarifs en Bref",
@@ -418,5 +434,5 @@
       "age": "4 hours ago"
     }
   ],
-  "totalArticles": 52
+  "totalArticles": 54
 }
