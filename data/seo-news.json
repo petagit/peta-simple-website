@@ -1,36 +1,52 @@
 {
-  "lastUpdated": "2026-02-15T15:00:59.166Z",
+  "lastUpdated": "2026-02-15T19:01:16.778Z",
   "articles": [
+    {
+      "title": "How has Google update affected your sales?",
+      "url": "https://community.shopify.com/t/how-has-google-update-affected-your-sales/588446",
+      "description": "“On February 5, 2026, Google Search launched a significant, targeted algorithm update known as the <strong>February 2026 Discover Core Update</strong>. It focuses on enhancing local relevance, reducing clickbait, and prioritizing in-depth, expert-driven ...",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
+      "age": "4 hours ago"
+    },
     {
       "title": "Generative engine optimization - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
       "description": "Academic research auditing generative AI search engines has found that such systems draw heavily from news and media sources, with citation patterns exhibiting commercial and geographic bias. Search Engine Land described generative engine optimization as a multi-layered approach focused on answer-oriented content structure, consistent entity representation, and the reinforcement of authority signals across authoritative sources to support inclusion within AI-generated responses.",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
       "age": "2 days ago"
-    },
-    {
-      "title": "25 Alternative Search Engines You Can Use Instead Of Google",
-      "url": "https://www.searchenginejournal.com/alternative-search-engines/271409/",
-      "description": "Google still dominates search, but these 25 alternative search engines show how AI, privacy, and independent indexes are reshaping how information is found.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
-      "age": "14 hours ago"
     },
     {
       "title": "The Search Engine Is Dead, Long Live the Search Engine: How Generative Engine Optimisation Is Rewriting the Rules of Digital Visibility",
       "url": "https://www.webpronews.com/the-search-engine-is-dead-long-live-the-search-engine-how-generative-engine-optimisation-is-rewriting-the-rules-of-digital-visibility/",
       "description": "<strong>Generative Engine Optimisation is rapidly replacing traditional SEO as AI-powered search tools reshape how consumers discover information</strong>. A new report from AI SEO details how brands must adapt content strategies for AI synthesis, entity ...",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
       "age": "1 day ago"
     },
     {
-      "title": "Anthropic (Claude) + Google Search Console Integration | Arahi AI | Arahi AI",
-      "url": "https://arahi.ai/connect/anthropic-to-google-search-console",
-      "description": "Connect Anthropic (Claude) and Google Search Console in minutes. Add a new task, page, or item automatically whe... No code required. Try free.",
+      "title": "25 Alternative Search Engines You Can Use Instead Of Google",
+      "url": "https://www.searchenginejournal.com/alternative-search-engines/271409/",
+      "description": "Google still dominates search, but these 25 alternative search engines show how AI, privacy, and independent indexes are reshaping how information is found.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
+      "age": "18 hours ago"
+    },
+    {
+      "title": "Google Search Console SEO: Content Gap Analysis SEO - YouTube",
+      "url": "https://www.youtube.com/watch?v=bVrPJ-KNx8E",
+      "description": "Google Search Console SEO: Content Gap Analysis SEO : Today I share a Case study using a content gap analisis SEO strategy and Google Search Console Data. Wo...",
       "query": "Google Search Console update",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Console search issue not fetch",
+      "url": "https://community.shopify.com/t/google-console-search-issue-not-fetch/588431",
+      "description": "Greetings all I am having some problem with Google Console search to check my submission of my site map I have still Cant not fetch. note I have done this submission of my site map on the Feb 6, 8 and last night on 12 o…",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
       "age": "1 day ago"
     },
     {
@@ -38,7 +54,7 @@
       "url": "https://blogdomarcosilva.com.br/core-web-vitals-e-experiencia-do-usuario-em-2026-o-futuro-da-otimizacao/",
       "description": "E no coração dessa experiência, encontramos os Core Web Vitals (CWV), <strong>métricas essenciais que avaliam a performance de um site e seu impacto na satisfação do usuário</strong>. Para entender como os CWV moldarão o futuro da web, precisamos analisar ...",
       "query": "core web vitals",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
       "age": "2 days ago"
     },
     {
@@ -46,7 +62,7 @@
       "url": "https://www.youstable.com/blog/how-to-start-a-blog-in-asia",
       "description": "To start a blog in Asia in 2026, pick a narrow niche and a local language focus, register a brandable domain, buy fast NVMe WordPress hosting near your audience, install WordPress with SSL, configure essential plugins (SEO, cache, security, backup), publish original, helpful content consistently, optimize for Core Web Vitals and search intent, build topical authority with internal links, and monetize via AdSense, affiliates, and digital products.",
       "query": "core web vitals",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
       "age": "1 day ago"
     },
     {
@@ -54,6 +70,14 @@
       "url": "https://www.rezoactif.com/seo-google-search-console/",
       "description": "L’outil centralise les signaux techniques, éditoriaux et UX indispensables pour progresser dans les SERP. Il accompagne autant l’optimisation des contenus que la résolution des problèmes d’indexation et la gestion des <strong>Core Web Vitals</strong> ...",
       "query": "core web vitals",
+      "publishedAt": "2026-02-15T19:01:16.778Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Anthropic (Claude) + Google Search Console Integration | Arahi AI | Arahi AI",
+      "url": "https://arahi.ai/connect/anthropic-to-google-search-console",
+      "description": "Connect Anthropic (Claude) and Google Search Console in minutes. Add a new task, page, or item automatically whe... No code required. Try free.",
+      "query": "Google Search Console update",
       "publishedAt": "2026-02-15T15:00:59.166Z",
       "age": "1 day ago"
     },
@@ -506,5 +530,5 @@
       "age": "4 hours ago"
     }
   ],
-  "totalArticles": 63
+  "totalArticles": 66
 }
