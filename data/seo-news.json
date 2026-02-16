@@ -1,13 +1,53 @@
 {
-  "lastUpdated": "2026-02-15T23:02:10.844Z",
+  "lastUpdated": "2026-02-16T03:02:44.620Z",
   "articles": [
     {
       "title": "How has Google update affected your sales?",
       "url": "https://community.shopify.com/t/how-has-google-update-affected-your-sales/588446",
       "description": "“On February 5, 2026, Google Search launched a significant, targeted algorithm update known as the <strong>February 2026 Discover Core Update</strong>. It focuses on enhancing local relevance, reducing clickbait, and prioritizing in-depth, expert-driven ...",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-15T23:02:10.844Z",
-      "age": "8 hours ago"
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "12 hours ago"
+    },
+    {
+      "title": "25 Alternative Search Engines You Can Use Instead Of Google",
+      "url": "https://www.searchenginejournal.com/alternative-search-engines/271409/",
+      "description": "Google still dominates search, but these 25 alternative search engines show how AI, privacy, and independent indexes are reshaping how information is found.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "1 hour ago"
+    },
+    {
+      "title": "Core Web Vitals -bestanden : die Felddaten – so geht’s 🎉",
+      "url": "https://mediendesign-quer.com/core-web-vitals-bestanden-die-felddaten-so-gehts-%F0%9F%8E%89/",
+      "description": "Was heißt das jetzt eigentlich ? Es ist nämlich ja so, viele riesen große Websites haben zuwar diese Crux Field Data angezeigt in den Core Web Vitals, aber sie haben sie nicht bestanden. Das heißt dort ist alles rot haha, und es steht : nicht bestanden dort.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "9 hours ago"
+    },
+    {
+      "title": "Content Accessibility: SEO Policy Updates 2025 - SearchX | SEO Agency",
+      "url": "https://searchxpro.com/content-accessibility-seo-policy-updates-2025",
+      "description": "Core Web Vitals, Google’s performance metrics, now integrate accessibility factors.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Hvorfor fejler min WordPress i Core Web Vitals? Fix det her",
+      "url": "https://www.onlinemarketers.dk/fejl-i-core-web-vitalswordpress/",
+      "description": "<strong>I 2026 er Core Web Vitals ikke længere et “nice-to-have” supplement til dine SEO tekster; det er selve fundamentet for din digitale synlighed</strong>.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-16T03:02:44.620Z",
+      "age": "1 day ago"
     },
     {
       "title": "Generative engine optimization - Wikipedia",
@@ -26,28 +66,12 @@
       "age": "2 days ago"
     },
     {
-      "title": "25 Alternative Search Engines You Can Use Instead Of Google",
-      "url": "https://www.searchenginejournal.com/alternative-search-engines/271409/",
-      "description": "Google still dominates search, but these 25 alternative search engines show how AI, privacy, and independent indexes are reshaping how information is found.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-15T23:02:10.844Z",
-      "age": "1 day ago"
-    },
-    {
       "title": "Core Web Vitals e Experiência do Usuário em 2026: O Futuro da Otimização - Marco Silva Notícias",
       "url": "https://blogdomarcosilva.com.br/core-web-vitals-e-experiencia-do-usuario-em-2026-o-futuro-da-otimizacao/",
       "description": "E no coração dessa experiência, encontramos os Core Web Vitals (CWV), <strong>métricas essenciais que avaliam a performance de um site e seu impacto na satisfação do usuário</strong>. Para entender como os CWV moldarão o futuro da web, precisamos analisar ...",
       "query": "core web vitals",
       "publishedAt": "2026-02-15T23:02:10.844Z",
       "age": "2 days ago"
-    },
-    {
-      "title": "Core Web Vitals -bestanden : die Felddaten – so geht’s 🎉",
-      "url": "https://mediendesign-quer.com/core-web-vitals-bestanden-die-felddaten-so-gehts-%F0%9F%8E%89/",
-      "description": "Was heißt das jetzt eigentlich ? Es ist nämlich ja so, viele riesen große Websites haben zuwar diese Crux Field Data angezeigt in den Core Web Vitals, aber sie haben sie nicht bestanden. Das heißt dort ist alles rot haha, und es steht : nicht bestanden dort.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-15T23:02:10.844Z",
-      "age": "5 hours ago"
     },
     {
       "title": "How to Speed Up Your WooCommerce Store in 2026 - Woo Sell Services",
@@ -104,14 +128,6 @@
       "query": "Google Search Console update",
       "publishedAt": "2026-02-15T10:59:54.344Z",
       "age": "1 day ago"
-    },
-    {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-15T02:40:31.968Z",
-      "age": "2 hours ago"
     },
     {
       "title": "Unconfirmed Google Update Wiping Out Top of Funnel Sites (Here’s What’s Surviving) - YouTube",
@@ -538,5 +554,5 @@
       "age": "4 hours ago"
     }
   ],
-  "totalArticles": 67
+  "totalArticles": 69
 }
