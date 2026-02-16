@@ -916,7 +916,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             prose-code:text-blue-300 prose-code:bg-blue-900/20 prose-code:px-2 prose-code:py-1 prose-code:rounded
             prose-pre:bg-slate-800 prose-pre:border prose-pre:border-white/10
             prose-blockquote:border-l-4 prose-blockquote:border-blue-400 prose-blockquote:pl-6 prose-blockquote:italic"
-          dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>').replace(/^## /gm, '<h2>').replace(/<br\/>## /g, '</h2><h2>').replace(/^### /gm, '<h3>').replace(/<br\/>### /g, '</h3><h3>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/^- /gm, '<li>').replace(/<br\/>- /g, '</li><li>').replace(/```(.+?)```/gs, '<pre><code>$1</code></pre>') }}
+          dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>').replace(/^## /gm, '<h2>').replace(/<br\/>## /g, '</h2><h2>').replace(/^### /gm, '<h3>').replace(/<br\/>### /g, '</h3><h3>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/^- /gm, '<li>').replace(/<br\/>- /g, '</li><li>').replace(/```[\s\S]*?```/g, (match) => `<pre><code>${match.slice(3, -3)}</code></pre>`) }}
         />
       </article>
 
