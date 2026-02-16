@@ -85,7 +85,13 @@ export default function SEONewsHub() {
                 Last updated: {lastUpdated} PST • {newsData.totalArticles} articles
               </p>
             </div>
-            <div className="text-right">
+            <div className="text-right flex items-center gap-4">
+              <button
+                onClick={() => router.push('/blog')}
+                className="px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 rounded-lg border border-blue-500/30 transition-all text-sm font-medium"
+              >
+                📝 Blog & Insights
+              </button>
               <div className="inline-block px-4 py-2 bg-green-500/20 rounded-full border border-green-500/30 pulse-glow">
                 <span className="text-green-400 text-sm font-semibold">🔴 LIVE</span>
               </div>

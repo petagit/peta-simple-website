@@ -1,0 +1,11 @@
+# SEO News Hub - robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://peta-simple-website.vercel.app/sitemap.xml
+
+# Crawl-delay (be respectful to crawlers)
+Crawl-delay: 1
