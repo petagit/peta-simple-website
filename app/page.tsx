@@ -25,6 +25,33 @@ export default function SEONewsHub() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sortBy, setSortBy] = useState<'newest' | 'oldest'>('newest');
 
+  // WebSite structured data
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SEO News Hub",
+    "alternateName": "SEO News Aggregator",
+    "url": "https://peta-simple-website.vercel.app",
+    "description": "Real-time SEO news aggregator covering Google algorithm updates, Core Web Vitals, ranking factors, and search optimization trends.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://peta-simple-website.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SEO News Hub",
+    "url": "https://peta-simple-website.vercel.app",
+    "logo": "https://peta-simple-website.vercel.app/logo.png",
+    "description": "Real-time SEO news aggregator updated every 4 hours",
+    "sameAs": [
+      "https://github.com/petagit/peta-simple-website"
+    ]
+  };
+
   useEffect(() => {
     // Load news data
     fetch('/api/news')
@@ -73,6 +100,16 @@ export default function SEONewsHub() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white animate-gradient-x">
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+
       {/* Header */}
       <header className="border-b border-white/10 bg-black/20 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -253,10 +290,44 @@ export default function SEONewsHub() {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 bg-black/20 backdrop-blur-sm py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
-          <p>🐸 Built by Frog • Updates every 4 hours • Powered by Brave Search API</p>
-          <p className="mt-2">Next update in ~{Math.ceil((4 - (new Date().getHours() % 4)) % 4)} hours</p>
+      <footer className="border-t border-white/10 bg-black/20 backdrop-blur-sm py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-8 mb-6">
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">SEO News Hub</h3>
+              <p className="text-sm text-gray-400">
+                Real-time SEO news aggregator updated every 4 hours
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">Quick Links</h3>
+              <ul className="space-y-2 text-sm">
+                <li><button onClick={() => router.push('/')} className="text-gray-400 hover:text-white transition">Home</button></li>
+                <li><button onClick={() => router.push('/blog')} className="text-gray-400 hover:text-white transition">Blog</button></li>
+                <li><button onClick={() => router.push('/about')} className="text-gray-400 hover:text-white transition">About</button></li>
+                <li><button onClick={() => router.push('/contact')} className="text-gray-400 hover:text-white transition">Contact</button></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">Resources</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="https://github.com/petagit/peta-simple-website" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">GitHub</a></li>
+                <li><button onClick={() => router.push('/sitemap.xml')} className="text-gray-400 hover:text-white transition">Sitemap</button></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">Latest Posts</h3>
+              <ul className="space-y-2 text-sm">
+                <li><button onClick={() => router.push('/blog/understanding-eeat-2026')} className="text-gray-400 hover:text-white transition">Understanding E-E-A-T</button></li>
+                <li><button onClick={() => router.push('/blog/core-web-vitals-2026')} className="text-gray-400 hover:text-white transition">Core Web Vitals 3.0</button></li>
+                <li><button onClick={() => router.push('/blog/generative-engine-optimization')} className="text-gray-400 hover:text-white transition">GEO: Future of SEO</button></li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-gray-400 text-sm pt-6 border-t border-white/10">
+            <p>🐸 Built by Frog • Updates every 4 hours • Powered by Brave Search API</p>
+            <p className="mt-2">Next update in ~{Math.ceil((4 - (new Date().getHours() % 4)) % 4)} hours</p>
+          </div>
         </div>
       </footer>
     </main>

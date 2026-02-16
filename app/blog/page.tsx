@@ -171,8 +171,49 @@ export default function BlogPage() {
               </div>
             </div>
           </div>
+          <div className="mt-6 text-center">
+            <Link
+              href="/about"
+              className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition"
+            >
+              Learn More About Us →
+            </Link>
+          </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="border-t border-white/10 bg-black/20 backdrop-blur-sm py-8 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-6">
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">SEO News Hub</h3>
+              <p className="text-sm text-gray-400">
+                Real-time SEO news aggregator updated every 4 hours
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">Quick Links</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/" className="text-gray-400 hover:text-white transition">Home</Link></li>
+                <li><Link href="/blog" className="text-gray-400 hover:text-white transition">Blog</Link></li>
+                <li><Link href="/about" className="text-gray-400 hover:text-white transition">About</Link></li>
+                <li><Link href="/contact" className="text-gray-400 hover:text-white transition">Contact</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold mb-3 text-blue-300">Resources</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="https://github.com/petagit/peta-simple-website" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">GitHub</a></li>
+                <li><Link href="/sitemap.xml" className="text-gray-400 hover:text-white transition">Sitemap</Link></li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-gray-400 text-sm pt-6 border-t border-white/10">
+            <p>🐸 Built by Frog • Powered by Brave Search API</p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
