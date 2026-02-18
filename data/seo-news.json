@@ -1,13 +1,93 @@
 {
-  "lastUpdated": "2026-02-18T07:08:43.430Z",
+  "lastUpdated": "2026-02-18T11:09:09.122Z",
   "articles": [
     {
       "title": "Andromeda Update Is Here: How Smart Agencies Stay Ahead of Google’s New Algorithm - Blogs",
       "url": "https://inbounderz.com/blogs/andromeda-update-is-here-how-smart-agencies-stay-ahead-of-googles-new-algorithm/",
       "description": "In simple terms, it’s Google’s ... over traditional optimization tactics. The update <strong>signals a deeper integration of AI into search and content evaluation</strong>....",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "14 hours ago"
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "18 hours ago"
+    },
+    {
+      "title": "Google Core Update 2026: The SEO Earthquake Every Digital Marketer Must Prepare For",
+      "url": "https://www.atinatechnology.in/google-core-update-2026/",
+      "description": "The <strong>Google Core Update 2026</strong> is a major algorithm update that improves how Google evaluates content quality, user experience, trust, and search intent to rank websites more accurately.",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Why AI optimization is just long-tail SEO done right",
+      "url": "https://searchengineland.com/ai-optimization-long-tail-seo-469315",
+      "description": "LLMs still rely on search, shifting SEO from head terms to the long tail. Here’s how to use AI to uncover real customer questions and win.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "19 hours ago"
+    },
+    {
+      "title": "100+ AI SEO Statistics for 2026 (Updated February)",
+      "url": "https://www.position.digital/blog/ai-seo-statistics/",
+      "description": "And now, with the rise of agentic AI, techical optimization is even more important if you want to protect (and improve) conversions. 92% of the time, ChatGPT agents rely on the Bing Search API (instead of the live SERPs) to search for information. (Search Engine Land, October 2025)",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Top Generative AI search engine optimization agencies",
+      "url": "https://www.openpr.com/news/4394509/top-generative-ai-search-engine-optimization-agencies",
+      "description": "Here are some of the top generative AI AI driven search engine optimization agencies specializing in GEO AEO and AI search visibility They re commonly mentioned in industry roundups for their capabilities across AI content systems technical SEO entity structured ...",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "15 hours ago"
+    },
+    {
+      "title": "Google Search Console AI-powered configuration rolling out",
+      "url": "https://searchengineland.com/google-search-console-ai-powered-configuration-rolling-out-469349",
+      "description": "Google said on LinkedIn, “The Search Console’s new AI-powered configuration is now available to everyone!”",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Search Console Gets AI Help for Easy Website Setup",
+      "url": "https://techgenyz.com/google-search-console-adds-ai-setup-guidance/",
+      "description": "<strong>Google has started adding a new AI-based help feature inside Google Search Console</strong>. This update is made to make the website setup easier. Many people face trouble while adding their site and verifying ownership.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "16 hours ago"
+    },
+    {
+      "title": "Google Search Console AI-powered configuration rolling out",
+      "url": "https://www.seositestool.com/google-search-console-ai-powered-configuration-rolling-out/",
+      "description": "Google said on LinkedIn, “The Search Console’s new AI-powered configuration is now available to everyone!”",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "16 hours ago"
+    },
+    {
+      "title": "Core Web Vitals Optimization: A Practical Guide - DEV Community",
+      "url": "https://dev.to/umesh_malik/core-web-vitals-optimization-a-practical-guide-4b35",
+      "description": "A hands-on guide to optimizing Core Web Vitals (LCP, INP, CLS). Covers measurement, diagnosis, and specific fixes with before/after examples from real projects. Tagged with performance, corewebvitals, seo, frontend.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "How To Optimize Events Website With Google's Core Web Vitals",
+      "url": "https://wp-eventmanager.com/optimize-events-website/",
+      "description": "Considering user behavior and Google&#x27;s ever-evolving search algorithm, it is crucial for every event organizer to optimize events websites to drive event attendance. Here comes the role of Google&#x27;s Core Web Vitals, which help you measure your website performance.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "How We Reduced INP by 100ms+: GTM Isolation, React Compiler, and Better Telemetry - DEV Community",
+      "url": "https://dev.to/subito/how-we-reduced-inp-by-100ms-gtm-isolation-react-compiler-and-better-telemetry-315g",
+      "description": "We integrated Google&#x27;s web-vitals library to capture attribution data (longestScriptURL, interactionTarget) and sent it to Grafana Faro:",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-18T11:09:09.122Z",
+      "age": "19 hours ago"
     },
     {
       "title": "New Clutch and Conductor Data Reveals 87% of Content Marketers Increasing Budgets in 2026 as SEO Expands Into AI Search | Business | rutlandherald.com",
@@ -22,54 +102,6 @@
       "url": "https://wordpress.org/plugins/wordpress-seo/",
       "description": "<strong>Yoast SEO blog, newsletter, and webinars</strong>. Yoast SEO Update podcast for the latest SEO insights. Bug reports on GitHub (for issue tracking, not support). Yoast SEO — built to make search optimization accessible, reliable, and ready for the ...",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Top Generative AI search engine optimization agencies",
-      "url": "https://www.openpr.com/news/4394509/top-generative-ai-search-engine-optimization-agencies",
-      "description": "Here are some of the top generative AI AI driven search engine optimization agencies specializing in GEO AEO and AI search visibility They re commonly mentioned in industry roundups for their capabilities across AI content systems technical SEO entity structured ...",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "11 hours ago"
-    },
-    {
-      "title": "Google Search Console AI-powered configuration rolling out",
-      "url": "https://searchengineland.com/google-search-console-ai-powered-configuration-rolling-out-469349",
-      "description": "Google said on LinkedIn, “The Search Console’s new AI-powered configuration is now available to everyone!”",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "17 hours ago"
-    },
-    {
-      "title": "Google Search Console Gets AI Help for Easy Website Setup",
-      "url": "https://techgenyz.com/google-search-console-adds-ai-setup-guidance/",
-      "description": "<strong>Google has started adding a new AI-based help feature inside Google Search Console</strong>. This update is made to make the website setup easier. Many people face trouble while adding their site and verifying ownership.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "12 hours ago"
-    },
-    {
-      "title": "Google Search Console AI-powered configuration rolling out",
-      "url": "https://www.seositestool.com/google-search-console-ai-powered-configuration-rolling-out/",
-      "description": "Google said on LinkedIn, “The Search Console’s new AI-powered configuration is now available to everyone!”",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "12 hours ago"
-    },
-    {
-      "title": "Core Web Vitals Optimization: A Practical Guide - DEV Community",
-      "url": "https://dev.to/umesh_malik/core-web-vitals-optimization-a-practical-guide-4b35",
-      "description": "A hands-on guide to optimizing Core Web Vitals (LCP, INP, CLS). Covers measurement, diagnosis, and specific fixes with before/after examples from real projects. Tagged with performance, corewebvitals, seo, frontend.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-18T07:08:43.430Z",
-      "age": "18 hours ago"
-    },
-    {
-      "title": "How To Optimize Events Website With Google's Core Web Vitals",
-      "url": "https://wp-eventmanager.com/optimize-events-website/",
-      "description": "Considering user behavior and Google&#x27;s ever-evolving search algorithm, it is crucial for every event organizer to optimize events websites to drive event attendance. Here comes the role of Google&#x27;s Core Web Vitals, which help you measure your website performance.",
-      "query": "core web vitals",
       "publishedAt": "2026-02-18T07:08:43.430Z",
       "age": "1 day ago"
     },
@@ -768,38 +800,6 @@
       "query": "Google Search Console update",
       "publishedAt": "2026-02-12T17:24:00.000Z",
       "age": "3 hours ago"
-    },
-    {
-      "title": "AI-Generated Content: Google's Detection Methods Revealed",
-      "url": "https://searchenginejournal.com/ai-content-detection-2026",
-      "description": "Internal documents reveal how Google identifies and treats AI-generated content. Quality and originality remain the primary factors.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "6 hours ago"
-    },
-    {
-      "title": "Mobile-First Indexing: Desktop Sites No Longer Crawled",
-      "url": "https://developers.google.com/search/mobile-first",
-      "description": "Google completes its transition to mobile-first indexing. Desktop-only sites will see significant ranking drops.",
-      "query": "Google algorithm update",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Local SEO Update: Google Maps Rankings Algorithm Change",
-      "url": "https://localseoguide.com/maps-algorithm-update",
-      "description": "Major changes to Google Maps ranking algorithm emphasize review velocity, response time, and user engagement metrics.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "8 hours ago"
-    },
-    {
-      "title": "Page Speed Update: New Thresholds for Core Web Vitals",
-      "url": "https://web.dev/cwv-thresholds-2026",
-      "description": "Google announces stricter thresholds for LCP, CLS, and INP. Sites must meet new standards by Q3 2026 to maintain rankings.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-12T17:24:00.000Z",
-      "age": "4 hours ago"
     }
   ],
   "totalArticles": 100
