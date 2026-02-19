@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-19T19:10:43.159Z",
+  "lastUpdated": "2026-02-19T23:11:12.888Z",
   "articles": [
     {
       "title": "Google Algorithm Updates: How They Impact Search Rankings - Sara & Julez",
       "url": "https://www.sarajulez.de/google-algorithm-updates-how-they-impact-search-rankings",
       "description": "<strong>Core updates occur multiple times a year and recalibrate how the google algorithm evaluates quality</strong>.",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
       "age": "2 days ago"
     },
     {
@@ -14,7 +14,7 @@
       "url": "https://startupnews.fyi/2026/02/18/are-citations-in-ai-search-affected-by-google-organic-visibility-changes/",
       "description": "I recently wrote about an unconfirmed Google algorithm update that <strong>rolled out in mid-January 2026</strong>, which negatively impacted the organic search visibility of dozens of major brands.",
       "query": "Google algorithm update",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
       "age": "1 day ago"
     },
     {
@@ -22,7 +22,7 @@
       "url": "https://neuronwriter.com/youtube-seo-the-ultimate-guide-to-optimizing-videos-2026/",
       "description": "As we mentioned earlier, audience retention is one of the most important ranking factors on YouTube. If you can keep people watching your videos for longer, you’ll be rewarded with higher rankings.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
       "age": "1 day ago"
     },
     {
@@ -30,24 +30,88 @@
       "url": "https://www.technologygmt.com/local-search-ranking-factors-and-how-to-audit-your-local-seo/",
       "description": "Your website still plays an important role in local rankings. Clear service pages and location pages help Google understand what you offer and where you serve. Internal linking also matters. If your most important services or locations are difficult to find, your relevance can appear weaker than it actually is. When proximity is similar between two businesses, Google often uses website relevance and topical authority as the deciding factor.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
       "age": "2 days ago"
+    },
+    {
+      "title": "Marketplace SEO vs. Google SEO: Key Differences Explained",
+      "url": "https://www.reyecomops.com/marketplace-seo-vs-google-seo-key-differences-and-tips/",
+      "description": "Lower bounce rates improve ranking over time. ... Running your own Shopify store → Focus on Google SEO.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "10 hours ago"
     },
     {
       "title": "Enterprise SEO Operating Models That Scale In 2026 And Beyond",
       "url": "https://www.searchenginejournal.com/enterprise-seo-operating-models-that-scale-in-2026-and-beyond/566073/",
       "description": "If an organization lacks clear intent modeling, structured topical coverage, and consistent entity representation, its content may never enter the retrieval set at all, regardless of how optimized individual pages appear. This shift also changed the sequence of how visibility is earned. Ranking still matters, particularly for enterprises where much of the traffic still flows through traditional results. But ranking now occurs only after eligibility is established. As search experiences move toward synthesized answers and AI-driven surfaces, eligibility has become the prerequisite rather than the reward.",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
       "age": "1 day ago"
+    },
+    {
+      "title": "SEOValley Launches Generative Engine Optimization (GEO) Service to Strengthen Brand Visibility in AI-Driven Search",
+      "url": "https://www.prnewswire.com/news-releases/seovalley-launches-generative-engine-optimization-geo-service-to-strengthen-brand-visibility-in-ai-driven-search-302692704.html",
+      "description": "Generative Engine Optimization (GEO) service, a strategic offering developed to help brands increase visibility, authority, and citation frequency across AI-powered search platforms.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "6 hours ago"
     },
     {
       "title": "Search Engine Optimization Market Poised for Exponential Growth as AI-Driven Digital Visibility Strategies and Enterprise Content Demand Redefine Online Competition Through 2033",
       "url": "https://www.openpr.com/news/4396755/search-engine-optimization-market-poised-for-exponential",
       "description": "According to a new study by DataHorizzon Research <strong>the search engine optimization market is projected to grow at a CAGR of 16 44 from 2025 to 2033</strong> This robust expansion is fueled by the relentless migration of commerce communication and ...",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
-      "age": "12 hours ago"
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "16 hours ago"
+    },
+    {
+      "title": "How to Use Google Search Console for Keyword Research (Step-by-Step AI Guide)",
+      "url": "https://www.sassyinfotech.com/blogs/google-search-console-keyword-research-guide/",
+      "description": "If you want real keyword data directly from Google, Google Search Console is one of the most powerful free SEO tools available today. With the <strong>2026 AI customization update</strong>, the Google Search Console tool has become smarter, faster, and more ...",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "14 hours ago"
+    },
+    {
+      "title": "AI-Powered Configuration Rolled Out in Google Search Console",
+      "url": "https://primotech.com/ai-powered-configuration-feature-rolled-out-in-google-search-console/",
+      "description": "Google has officially rolled out its <strong>AI-powered configuration feature inside Google Search Console to all users after more than two months of limited testing</strong>. For marketers, SEO professionals, and digital growth teams, this is more than a feature update.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "13 hours ago"
+    },
+    {
+      "title": "Google Simplifies Search Console Reports With AI-Powered Configuration - Stan Ventures",
+      "url": "https://www.stanventures.com/news/google-simplifies-search-console-reports-with-ai-powered-configuration-6932/",
+      "description": "Google has rolled out a new AI-powered configuration feature in Google Search Console that <strong>lets users build Search Performance reports by simply describing what they want to see</strong>. The update is now live for all users worldwide.",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "10 hours ago"
+    },
+    {
+      "title": "What Are Core Web Vitals? A Practical Guide for 2026 - DEV Community",
+      "url": "https://dev.to/apogeewatcher/what-are-core-web-vitals-a-practical-guide-for-2026-382n",
+      "description": "Core Web Vitals are <strong>a set of specific metrics that Google uses to evaluate the real-world user experience of a web page</strong>.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "14 hours ago"
+    },
+    {
+      "title": "Third-Party Scripts Are Killing Your Core Web Vitals (Here's How to Fix Them) - PageSpeedFix",
+      "url": "https://www.pagespeedfix.com/blog/third-party-scripts-core-web-vitals/",
+      "description": "third-party-scriptscore-web-vitalsperformancejavascriptgoogle-tag-manageranalytics ... Over 94% of websites load third-party scripts. And according to Chrome&#x27;s research, the worst offenders block your main thread for up to 1.6 seconds—on more than half of sites analyzed. That&#x27;s not a minor performance hit. That&#x27;s the difference between passing and failing Core Web Vitals.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "11 hours ago"
+    },
+    {
+      "title": "Google's 2026 Core Web Vitals Update: What It Means for Your Business Website - Wire Farm",
+      "url": "https://www.wirefarm.com/googles-2026-core-web-vitals-update-what-it-means-for-your-business-website.html",
+      "description": "Here’s what this means in practical terms. If your competitor invested in professional web design with proper performance optimisation, they’re now ranking above you. Not because their content is better. Not because they have more backlinks.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-19T23:11:12.888Z",
+      "age": "9 hours ago"
     },
     {
       "title": "Perplexity stops testing advertising",
@@ -56,38 +120,6 @@
       "query": "search engine optimization news",
       "publishedAt": "2026-02-19T19:10:43.159Z",
       "age": "1 day ago"
-    },
-    {
-      "title": "How to Use Google Search Console for Keyword Research (Step-by-Step AI Guide)",
-      "url": "https://www.sassyinfotech.com/blogs/google-search-console-keyword-research-guide/",
-      "description": "With the <strong>2026 AI customization update</strong>, the Google Search Console tool has become smarter, faster, and more strategic for keyword research, ranking improvements, and traffic growth.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
-      "age": "10 hours ago"
-    },
-    {
-      "title": "AI-Powered Configuration Rolled Out in Google Search Console",
-      "url": "https://primotech.com/ai-powered-configuration-feature-rolled-out-in-google-search-console/",
-      "description": "Google has officially rolled out its <strong>AI-powered configuration feature inside Google Search Console to all users after more than two months of limited testing</strong>. For marketers, SEO professionals, and digital growth teams, this is more than a feature update.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
-      "age": "9 hours ago"
-    },
-    {
-      "title": "Google Simplifies Search Console Reports With AI-Powered Configuration - Stan Ventures",
-      "url": "https://www.stanventures.com/news/google-simplifies-search-console-reports-with-ai-powered-configuration-6932/",
-      "description": "The rollout follows an initial announcement made in early December and has now reached full availability. The update <strong>introduces a simpler way to configure Search Performance reports</strong>.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
-      "age": "6 hours ago"
-    },
-    {
-      "title": "What Are Core Web Vitals? A Practical Guide for 2026 - DEV Community",
-      "url": "https://dev.to/apogeewatcher/what-are-core-web-vitals-a-practical-guide-for-2026-382n",
-      "description": "Core Web Vitals are <strong>a set of specific metrics that Google uses to evaluate the real-world user experience of a web page</strong>.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-19T19:10:43.159Z",
-      "age": "10 hours ago"
     },
     {
       "title": "LCPとは？表示速度の改善方法・指標の読み解き方 - ミエルカマーケティングジャーナル",
@@ -768,38 +800,6 @@
       "query": "Google algorithm update",
       "publishedAt": "2026-02-12T17:32:00.000Z",
       "age": "1 day ago"
-    },
-    {
-      "title": "Google's February 2026 Core Update",
-      "url": "https://digitalwarbleint.com/googles-february-2026-core-update/",
-      "description": "In February 2026, that paradigm will alter significantly and will stock the algorithms with higher content based on negative sentiment. Google's updated policies on Discover state that any use of titles that elicit 'morbid curiosity' will be downranked.",
-      "query": "Google algorithm update",
-      "publishedAt": "2026-02-12T17:32:00.000Z",
-      "age": "2 days ago"
-    },
-    {
-      "title": "8 Types of Local SEO Ranking Factors for 2026",
-      "url": "https://rankomedia.com/blog/local-seo-ranking-factors/",
-      "description": "Google weighs ranking factors differently based on the purpose of the user's search query. The Google Business Profile is the most significant driver of SEO success for businesses that leverage local SEO in 2026.",
-      "query": "SEO ranking factors",
-      "publishedAt": "2026-02-12T17:32:00.000Z",
-      "age": "6 days ago"
-    },
-    {
-      "title": "Top 7 SEO Benefits That Matter Most in 2026",
-      "url": "https://www.seodiscovery.com/blog/seo-benefits-that-matter/",
-      "description": "The relevance of the content and the value of the information are crucial. Giving a unique point of view, which is not just a copy of other websites, is the main factor for the 2026 rankings.",
-      "query": "SEO ranking factors",
-      "publishedAt": "2026-02-12T17:32:00.000Z",
-      "age": "3 days ago"
-    },
-    {
-      "title": "SEO Ranking: What It Is & How to Improve in 2026",
-      "url": "https://upgrowth.in/seo-ranking-guide-2026/",
-      "description": "Ranking well is harder than ever: over 96% of web pages receive zero organic traffic, while the top three results capture more than 54% of all clicks. Understanding modern ranking factors is critical.",
-      "query": "SEO ranking factors",
-      "publishedAt": "2026-02-12T17:32:00.000Z",
-      "age": "1 week ago"
     }
   ],
   "totalArticles": 100
