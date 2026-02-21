@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-21T05:24:32.588Z",
+  "lastUpdated": "2026-02-21T09:24:32.848Z",
   "articles": [
     {
       "title": "Local SEO Ranking Factors Breakdown: How to Rank for Near-Me Searches",
       "url": "https://trimonks.com/blogs/local-seo-ranking-factors-breakdown-how-to-rank-for-near-me-searches/",
       "description": "Winning visibility comes down to three core local SEO ranking factors: <strong>match the query, be close to the searcher, and build strong authority through reviews and brand signals</strong>.In practice, that means a fully optimized Google Business Profile, ...",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
       "age": "1 day ago"
     },
     {
@@ -14,7 +14,71 @@
       "url": "https://www.position.digital/blog/ai-seo-statistics/",
       "description": "When it comes to securing AI mentions and citations, content depth (sentence and word counts) and readability matter most, while traditional SEO metrics like traffic and backlinks have little impact. (Growth Memo, March 2025) Response time is another strong factor: content that loads faster is more likely to be included by AI.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Beyond Backlinks: Content Velocity & SEO Article Generator - 4 SEO Help",
+      "url": "https://www.4seohelp.com/content-velocity-seo-article-generator-ranking-factors/",
+      "description": "Learn why content velocity and an SEO article generator are your new ranking factors beyond backlinks, helping improve visibility, relevance, and search growth.",
+      "query": "SEO ranking factors",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "3 hours ago"
+    },
+    {
+      "title": "How AI-Driven SEO Services Help Dubai Companies Rank Higher on Search Engines | OCNJ Daily",
+      "url": "https://ocnjdaily.com/news/2026/feb/19/how-ai-driven-seo-services-help-dubai-companies-rank-higher-on-search-engines/",
+      "description": "An innovative SEO agency Dubai companies rely on AI to enhance every aspect of search engine optimization, from keyword usage to technical structure.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Search Everywhere Optimization: The Future Of SEO Beyond Google (2026 Guide) - Mediaofficers",
+      "url": "https://mediaofficers.com/search-everywhere-optimization-the-future-of-seo-beyond-google-2026-guide/",
+      "description": "TL;DR: <strong>In 2026, ranking on Google is just the entry ticket</strong>. Real growth comes from Search Everywhere Optimization, a strategy that ensures your brand is cited by AI engines (ChatGPT/Gemini), validated on Reddit, and discovered on TikTok and YouTube.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Search Console : déploiement de la configuration boostée à l’IA pour tous les utilisateurs - Abondance",
+      "url": "https://www.abondance.com/20260220-1935468-google-search-console-deploiement-de-la-configuration-boostee-a-lia-pour-tous-les-utilisateurs.html",
+      "description": "Google généralise sa nouvelle configuration intelligente dans Search Console. Grâce à l’intelligence artificielle, les professionnels du référencement",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Google Search Console: Eliminación masiva de URLs | Recursos Víctor Misa",
+      "url": "https://victormisa.com/recursos/asistente-para-retiradas-masivas-en-google-search-console/",
+      "description": "Abre <strong>Google Search Console</strong> en Chrome y navega hasta la propiedad que te interesa (ya sea tu dominio principal como https://vikingseo.es/ o cualquier otro sitio que gestiones). Una vez dentro, ve al menú lateral, busca &quot;Retirada de URLs&quot; y ...",
+      "query": "Google Search Console update",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "20 hours ago"
+    },
+    {
+      "title": "Free: Optimizing Core Web Vitals: A Complete Guide to Using Base64 Data URIs to Skyrocket Website Speed | RapidDocTools",
+      "url": "https://www.rapiddoctools.com/blog/core-web-vitals-base64-guide",
+      "description": "In the high-stakes world of 2026 SEO, Core Web Vitals (CWV) are not just metrics; they are the gatekeepers of your revenue. Google&#x27;s algorithm has become ruthless.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "9 hours ago"
+    },
+    {
+      "title": "How to Start a Blog in Tanzania 2026 - (Step-by-Step Guide)",
+      "url": "https://www.youstable.com/blog/how-to-start-a-blog-in-tanzania",
+      "description": "Install WordPress, configure SEO basics, and publish helpful Kiswahili or bilingual (Kiswahili-English) content that solves local problems. Optimize for Core Web Vitals, build topical authority, and monetize via AdSense, affiliates, and services.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "How to Speed Up Website WordPress (Complete Guide)",
+      "url": "https://digitalfinds.reviewfriendly.com/how-to-speed-up-website-wordpress/",
+      "description": "Learn how to speed up website WordPress step-by-step. Optimize hosting, caching, images, database &amp; Core Web Vitals for maximum performance.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-21T09:24:32.848Z",
       "age": "1 day ago"
     },
     {
@@ -34,22 +98,6 @@
       "age": "20 hours ago"
     },
     {
-      "title": "How AI-Driven SEO Services Help Dubai Companies Rank Higher on Search Engines | OCNJ Daily",
-      "url": "https://ocnjdaily.com/news/2026/feb/19/how-ai-driven-seo-services-help-dubai-companies-rank-higher-on-search-engines/",
-      "description": "An innovative SEO agency Dubai companies rely on AI to enhance every aspect of search engine optimization, from keyword usage to technical structure.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Google Search Console : déploiement de la configuration boostée à l’IA pour tous les utilisateurs - Abondance",
-      "url": "https://www.abondance.com/20260220-1935468-google-search-console-deploiement-de-la-configuration-boostee-a-lia-pour-tous-les-utilisateurs.html",
-      "description": "Google généralise sa nouvelle configuration intelligente dans Search Console. Grâce à l’intelligence artificielle, les professionnels du référencement",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
-      "age": "1 day ago"
-    },
-    {
       "title": "How to Use Google Search Console (Updated for 2026)",
       "url": "https://www.tumarketing.co.uk/how-to-use-google-search-console-2026/",
       "description": "2026 guide to Google Search Console for UK business owners. Learn how to spot issues, improve visibility and make better website decisions.",
@@ -58,28 +106,12 @@
       "age": "17 hours ago"
     },
     {
-      "title": "Google Search Console: Eliminación masiva de URLs | Recursos Víctor Misa",
-      "url": "https://victormisa.com/recursos/asistente-para-retiradas-masivas-en-google-search-console/",
-      "description": "Abre <strong>Google Search Console</strong> en Chrome y navega hasta la propiedad que te interesa (ya sea tu dominio principal como https://vikingseo.es/ o cualquier otro sitio que gestiones). Una vez dentro, ve al menú lateral, busca &quot;Retirada de URLs&quot; y ...",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
-      "age": "16 hours ago"
-    },
-    {
       "title": "Why UK Companies Are Redesigning Websites for Core Web Vitals in 2026 - 100% Free Guest Posting Website",
       "url": "https://www.ranksrocket.com/why-uk-companies-are-redesigning-websites-for-core-web-vitals-in-2026/",
       "description": "UK companies are redesigning their websites in 2026 to improve Core Web Vitals, which <strong>affect speed, responsiveness, and visual stability</strong>. Better performance leads to higher search rankings, improved user experience, and increased conversions.",
       "query": "core web vitals",
       "publishedAt": "2026-02-21T05:24:32.588Z",
       "age": "1 day ago"
-    },
-    {
-      "title": "Free: Optimizing Core Web Vitals: A Complete Guide to Using Base64 Data URIs to Skyrocket Website Speed | RapidDocTools",
-      "url": "https://www.rapiddoctools.com/blog/core-web-vitals-base64-guide",
-      "description": "In the high-stakes world of 2026 SEO, Core Web Vitals (CWV) are not just metrics; they are the gatekeepers of your revenue. Google&#x27;s algorithm has become ruthless.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-21T05:24:32.588Z",
-      "age": "5 hours ago"
     },
     {
       "title": "High-Performance Website Optimization for Better UX & Rankings In 2026",
@@ -768,38 +800,6 @@
       "query": "search engine optimization news",
       "publishedAt": "2026-02-14T01:17:59.372Z",
       "age": "14 hours ago"
-    },
-    {
-      "title": "Best Mobile SEO Services: Optimise for Mobile-First Indexing",
-      "url": "https://profiletree.com/mobile-seo-services/",
-      "description": "Core Web Vitals are Google’s metrics for page experience: <strong>LCP (loading), INP (interactivity), and CLS (visual stability).</strong> They are confirmed ranking factors and affect both mobile and desktop rankings.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-14T01:17:59.372Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "FinancialContent - Fortress Publishes Annual Law Firm SEO Ranking Factors Guide for 2026",
-      "url": "https://markets.financialcontent.com/stocks/article/abnewswire-2026-2-12-fortress-publishes-annual-law-firm-seo-ranking-factors-guide-for-2026",
-      "description": "The guide outlines 250+ ranking factors organized into ten comprehensive sections, including Google Organic Search optimization, Google Maps and Local Pack dominance, YouTube strategies, AI platform visibility (ChatGPT, Gemini, Perplexity), social media tactics, authority building, technical SEO, link building, analytics, and implementation frameworks.",
-      "query": "SEO ranking factors",
-      "publishedAt": "2026-02-13T21:17:29.130Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "From Performance SEO To Demand SEO",
-      "url": "https://www.searchenginejournal.com/from-performance-seo-to-demand-seo/566743/",
-      "description": "AI forces SEO to move beyond rankings toward entity clarity, trust signals, and influence inside decision systems.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-13T21:17:29.130Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "If SEO is rocket science, AI SEO is astrophysics",
-      "url": "https://searchengineland.com/seo-rocket-science-ai-seo-astrophysics-468923",
-      "description": "Many SEO strategies still optimize for recognition. But AI systems prioritize utility. If your authority can’t be located, verified, and extracted within a semantic system, it won’t shape retrieval. This article explains how authority works in AI search, why familiar SEO practices fall short, and what it takes to build entity strength that drives visibility.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-13T21:17:29.130Z",
-      "age": "1 day ago"
     }
   ],
   "totalArticles": 100
