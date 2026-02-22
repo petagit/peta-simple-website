@@ -1,29 +1,61 @@
 {
-  "lastUpdated": "2026-02-22T01:24:32.073Z",
+  "lastUpdated": "2026-02-22T05:24:32.249Z",
   "articles": [
     {
       "title": "Google’s Top 100 Ranking Factors Explained",
       "url": "https://blog.skillwaala.com/googles-top-100-ranking-factors/",
       "description": "The most important Google rankings factors include <strong>search intent match, high-quality content, authoritative backlinks, fast page speed, mobile-friendly design, and strong technical SEO</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "18 hours ago"
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "1 day ago"
     },
     {
       "title": "47 Statistics on SEO: The Numbers Every Marketer Needs (%%currentyear%%)",
       "url": "https://www.apollotechnical.com/statistics-on-seo/",
       "description": "Google uses more than 200 ranking criteria. The most consistently cited top factors include <strong>backlinks and domain authority, content quality and depth, Core Web Vitals (speed, visual stability, responsiveness), user engagement signals like time on page and scroll rate, and mobile performance</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "9 hours ago"
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "13 hours ago"
     },
     {
       "title": "Beyond Backlinks: Content Velocity & SEO Article Generator - 4 SEO Help",
       "url": "https://www.4seohelp.com/content-velocity-seo-article-generator-ranking-factors/",
       "description": "Learn why content velocity and an SEO article generator are your new ranking factors beyond backlinks, helping improve visibility, relevance, and search growth.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "19 hours ago"
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "1 day ago"
+    },
+    {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+      "query": "search engine optimization news",
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "2 hours ago"
+    },
+    {
+      "title": "Core Web Vitals In 2026: Is Speed Still King for SEO?",
+      "url": "https://editorialge.com/core-web-vitals-in-2026/",
+      "description": "Core Web Vitals are <strong>three key website metrics that Google uses to check site performance and user experience</strong>. Think of them as a health checkup for your website.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "12 hours ago"
+    },
+    {
+      "title": "15 Quickest Ways to Improve Website Loading Speed - TheCconnects",
+      "url": "https://thecconnects.com/15-quickest-ways-to-improve-website-loading-speed/",
+      "description": "Map each performance tactic to a measurable outcome: image optimization → LCP improvement → conversion rate lift. Use Google Search Console’s Core Web Vitals report to identify which pages drive the most revenue and have the lowest scores , these are your highest-ROI targets.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "17 hours ago"
+    },
+    {
+      "title": "Mobile-First Design: SEO Checklist",
+      "url": "https://www.seowerkz.com/resource/uncategorized/mobile-first-design-seo-checklist/",
+      "description": "The Core Web Vitals report in Google Search Console is another essential tool. It <strong>groups similar URLs, such as product pages, to show how entire sections of your site perform based on real user data from the past 28 days</strong>.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "age": "1 day ago"
     },
     {
       "title": "Generative Engine Optimization GEO - A New Era of Visibility",
@@ -40,30 +72,6 @@
       "query": "search engine optimization news",
       "publishedAt": "2026-02-22T01:24:32.073Z",
       "age": "17 hours ago"
-    },
-    {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
-      "query": "search engine optimization news",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "10 minutes ago"
-    },
-    {
-      "title": "Core Web Vitals In 2026: Is Speed Still King for SEO?",
-      "url": "https://editorialge.com/core-web-vitals-in-2026/",
-      "description": "Core Web Vitals are <strong>three key website metrics that Google uses to check site performance and user experience</strong>. Think of them as a health checkup for your website.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "8 hours ago"
-    },
-    {
-      "title": "15 Quickest Ways to Improve Website Loading Speed - TheCconnects",
-      "url": "https://thecconnects.com/15-quickest-ways-to-improve-website-loading-speed/",
-      "description": "Map each performance tactic to a measurable outcome: image optimization → LCP improvement → conversion rate lift. Use Google Search Console’s Core Web Vitals report to identify which pages drive the most revenue and have the lowest scores , these are your highest-ROI targets.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-22T01:24:32.073Z",
-      "age": "13 hours ago"
     },
     {
       "title": "Free: Optimizing Core Web Vitals: A Complete Guide to Using Base64 Data URIs to Skyrocket Website Speed | RapidDocTools",
@@ -789,14 +797,6 @@
       "title": "Unconfirmed Google Update Wiping Out Top of Funnel Sites (Here’s What’s Surviving) - YouTube",
       "url": "https://www.youtube.com/watch?v=ujURQ6FwrqM",
       "description": "E954: We may be in the middle of another <strong>Google algorithm update</strong> - and for some sites, the impact has been severe.From February 5th to February 7th, one of m...",
-      "query": "Google algorithm update",
-      "publishedAt": "2026-02-14T22:40:10.187Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Gemini 3 Deep Think Update Raises the Bar for Advanced AI Reasoning - Tech Edu Byte",
-      "url": "https://www.techedubyte.com/gemini-3-deep-think-ai-reasoning-update/",
-      "description": "Google has upgraded <strong>Gemini 3 Deep Think</strong> to strengthen its ability to solve complex scientific, mathematical, and engineering problems. Thank you for being",
       "query": "Google algorithm update",
       "publishedAt": "2026-02-14T22:40:10.187Z",
       "age": "1 day ago"
