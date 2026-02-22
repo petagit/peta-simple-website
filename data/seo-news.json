@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-02-22T09:24:32.172Z",
+  "lastUpdated": "2026-02-22T13:24:32.171Z",
   "articles": [
+    {
+      "title": "SEO News: Latest Updates & Expert Tips",
+      "url": "https://www.thedetroitbureau.com/today-report/seo-news-latest-updates-and-expert-tips-1767647646",
+      "description": "Whether you’re a seasoned SEO professional or just starting, this guide is designed to provide you with actionable insights and updates. ... Google Algorithm Updates: Google’s algorithm is constantly evolving, and keeping track of these updates is essential.",
+      "query": "Google algorithm update",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
+      "age": "1 day ago"
+    },
     {
       "title": "Google’s Top 100 Ranking Factors Explained",
       "url": "https://blog.skillwaala.com/googles-top-100-ranking-factors/",
       "description": "The most important Google rankings factors include <strong>search intent match, high-quality content, authoritative backlinks, fast page speed, mobile-friendly design, and strong technical SEO</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
       "age": "1 day ago"
     },
     {
@@ -14,15 +22,15 @@
       "url": "https://www.apollotechnical.com/statistics-on-seo/",
       "description": "Google uses more than 200 ranking criteria. The most consistently cited top factors include <strong>backlinks and domain authority, content quality and depth, Core Web Vitals (speed, visual stability, responsiveness), user engagement signals like time on page and scroll rate, and mobile performance</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
-      "age": "17 hours ago"
+      "publishedAt": "2026-02-22T13:24:32.171Z",
+      "age": "1 day ago"
     },
     {
       "title": "Beyond Backlinks: Content Velocity & SEO Article Generator - 4 SEO Help",
       "url": "https://www.4seohelp.com/content-velocity-seo-article-generator-ranking-factors/",
       "description": "Learn why content velocity and an SEO article generator are your new ranking factors beyond backlinks, helping improve visibility, relevance, and search growth.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
       "age": "1 day ago"
     },
     {
@@ -30,24 +38,32 @@
       "url": "https://www.reuters.com/",
       "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
       "age": "40 minutes ago"
-    },
-    {
-      "title": "Core Web Vitals In 2026: Is Speed Still King for SEO?",
-      "url": "https://editorialge.com/core-web-vitals-in-2026/",
-      "description": "Core Web Vitals are <strong>three key website metrics that Google uses to check site performance and user experience</strong>. Think of them as a health checkup for your website.",
-      "query": "core web vitals",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
-      "age": "16 hours ago"
     },
     {
       "title": "BerqWP - WordPress Speed & Core Web Vitals Optimization Plugin » Link Sharing System | up4vn.com",
       "url": "https://up4vn.com/wordpress/plugins/198627-berqwp.html",
       "description": "BerqWP is a 100% automatic speed optimization plugin that ensures your website passes the <strong>core web vitals</strong> assessment. Additionally, it boosts your website speed score to 90+ for mobile and desktop devices. Cache Warmup Stay ahead of the game with BerqWP&#x27;s Cache Warmup feature, automatically",
       "query": "core web vitals",
-      "publishedAt": "2026-02-22T09:24:32.172Z",
-      "age": "4 hours ago"
+      "publishedAt": "2026-02-22T13:24:32.171Z",
+      "age": "8 hours ago"
+    },
+    {
+      "title": "How to Configure Core Web Vitals for Webflow (2026 Guide) | SEO It Is",
+      "url": "https://www.seoitis.com/guides/how-to-configure-core-web-vitals-for-webflow",
+      "description": "configure Core Web Vitals webflow: Learn how to configure <strong>core web vitals</strong> specifically for webflow. Step-by-step guide with practical tips. Try it free →",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
+      "age": "7 minutes ago"
+    },
+    {
+      "title": "Core Web Vitals In 2026: Is Speed Still King for SEO?",
+      "url": "https://editorialge.com/core-web-vitals-in-2026/",
+      "description": "Core Web Vitals are <strong>three key website metrics that Google uses to check site performance and user experience</strong>. Think of them as a health checkup for your website.",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T13:24:32.171Z",
+      "age": "1 day ago"
     },
     {
       "title": "15 Quickest Ways to Improve Website Loading Speed - TheCconnects",
@@ -783,22 +799,6 @@
       "description": "L’outil centralise les signaux techniques, éditoriaux et UX indispensables pour progresser dans les SERP. Il accompagne autant l’optimisation des contenus que la résolution des problèmes d’indexation et la gestion des <strong>Core Web Vitals</strong> ...",
       "query": "core web vitals",
       "publishedAt": "2026-02-15T19:01:16.778Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Anthropic (Claude) + Google Search Console Integration | Arahi AI | Arahi AI",
-      "url": "https://arahi.ai/connect/anthropic-to-google-search-console",
-      "description": "Connect Anthropic (Claude) and Google Search Console in minutes. Add a new task, page, or item automatically whe... No code required. Try free.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-15T15:00:59.166Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Indexnow Vs Google Search Console: 7 Smart Strategies",
-      "url": "https://www.trysight.ai/blog/indexnow-vs-google-search-console",
-      "description": "1. Use IndexNow for immediate notifications when you publish new content, update existing pages, or delete outdated URLs—this ensures supported search engines know about changes within seconds. 2. Reserve Google Search Console for understanding Google&#x27;s crawl behavior, diagnosing why pages aren&#x27;t indexed, and monitoring overall site health through Coverage reports and crawl statistics.",
-      "query": "Google Search Console update",
-      "publishedAt": "2026-02-15T10:59:54.344Z",
       "age": "1 day ago"
     }
   ],
