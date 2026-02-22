@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-22T05:24:32.249Z",
+  "lastUpdated": "2026-02-22T09:24:32.172Z",
   "articles": [
     {
       "title": "Google’s Top 100 Ranking Factors Explained",
       "url": "https://blog.skillwaala.com/googles-top-100-ranking-factors/",
       "description": "The most important Google rankings factors include <strong>search intent match, high-quality content, authoritative backlinks, fast page speed, mobile-friendly design, and strong technical SEO</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "publishedAt": "2026-02-22T09:24:32.172Z",
       "age": "1 day ago"
     },
     {
@@ -14,15 +14,15 @@
       "url": "https://www.apollotechnical.com/statistics-on-seo/",
       "description": "Google uses more than 200 ranking criteria. The most consistently cited top factors include <strong>backlinks and domain authority, content quality and depth, Core Web Vitals (speed, visual stability, responsiveness), user engagement signals like time on page and scroll rate, and mobile performance</strong>.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
-      "age": "13 hours ago"
+      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "age": "17 hours ago"
     },
     {
       "title": "Beyond Backlinks: Content Velocity & SEO Article Generator - 4 SEO Help",
       "url": "https://www.4seohelp.com/content-velocity-seo-article-generator-ranking-factors/",
       "description": "Learn why content velocity and an SEO article generator are your new ranking factors beyond backlinks, helping improve visibility, relevance, and search growth.",
       "query": "SEO ranking factors",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
+      "publishedAt": "2026-02-22T09:24:32.172Z",
       "age": "1 day ago"
     },
     {
@@ -30,24 +30,32 @@
       "url": "https://www.reuters.com/",
       "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
       "query": "search engine optimization news",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
-      "age": "2 hours ago"
+      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "age": "40 minutes ago"
     },
     {
       "title": "Core Web Vitals In 2026: Is Speed Still King for SEO?",
       "url": "https://editorialge.com/core-web-vitals-in-2026/",
       "description": "Core Web Vitals are <strong>three key website metrics that Google uses to check site performance and user experience</strong>. Think of them as a health checkup for your website.",
       "query": "core web vitals",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
-      "age": "12 hours ago"
+      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "age": "16 hours ago"
+    },
+    {
+      "title": "BerqWP - WordPress Speed & Core Web Vitals Optimization Plugin » Link Sharing System | up4vn.com",
+      "url": "https://up4vn.com/wordpress/plugins/198627-berqwp.html",
+      "description": "BerqWP is a 100% automatic speed optimization plugin that ensures your website passes the <strong>core web vitals</strong> assessment. Additionally, it boosts your website speed score to 90+ for mobile and desktop devices. Cache Warmup Stay ahead of the game with BerqWP&#x27;s Cache Warmup feature, automatically",
+      "query": "core web vitals",
+      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "age": "4 hours ago"
     },
     {
       "title": "15 Quickest Ways to Improve Website Loading Speed - TheCconnects",
       "url": "https://thecconnects.com/15-quickest-ways-to-improve-website-loading-speed/",
       "description": "Map each performance tactic to a measurable outcome: image optimization → LCP improvement → conversion rate lift. Use Google Search Console’s Core Web Vitals report to identify which pages drive the most revenue and have the lowest scores , these are your highest-ROI targets.",
       "query": "core web vitals",
-      "publishedAt": "2026-02-22T05:24:32.249Z",
-      "age": "17 hours ago"
+      "publishedAt": "2026-02-22T09:24:32.172Z",
+      "age": "1 day ago"
     },
     {
       "title": "Mobile-First Design: SEO Checklist",
@@ -791,14 +799,6 @@
       "description": "1. Use IndexNow for immediate notifications when you publish new content, update existing pages, or delete outdated URLs—this ensures supported search engines know about changes within seconds. 2. Reserve Google Search Console for understanding Google&#x27;s crawl behavior, diagnosing why pages aren&#x27;t indexed, and monitoring overall site health through Coverage reports and crawl statistics.",
       "query": "Google Search Console update",
       "publishedAt": "2026-02-15T10:59:54.344Z",
-      "age": "1 day ago"
-    },
-    {
-      "title": "Unconfirmed Google Update Wiping Out Top of Funnel Sites (Here’s What’s Surviving) - YouTube",
-      "url": "https://www.youtube.com/watch?v=ujURQ6FwrqM",
-      "description": "E954: We may be in the middle of another <strong>Google algorithm update</strong> - and for some sites, the impact has been severe.From February 5th to February 7th, one of m...",
-      "query": "Google algorithm update",
-      "publishedAt": "2026-02-14T22:40:10.187Z",
       "age": "1 day ago"
     }
   ],
