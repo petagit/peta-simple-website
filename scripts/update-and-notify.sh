@@ -15,7 +15,7 @@ if [ -f data/seo-news.json ]; then
     echo "📝 No changes to commit"
   else
     git commit -m "Update SEO news: $(date '+%Y-%m-%d %H:%M PST')"
-    git push origin main
+    git -c "http.curloptResolve=github.com:443:$(nslookup github.com 2>/dev/null | awk '/^Address: /{print $2}' | head -1 || echo '140.82.113.4')" push origin main
     echo "🚀 Pushed to GitHub (Vercel will auto-deploy)"
   fi
   
