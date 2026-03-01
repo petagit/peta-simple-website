@@ -1,7 +1,7 @@
-'use client';
-
-import { useEffect, useState } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import fs from 'fs';
+import path from 'path';
 
 interface Article {
   title: string;
@@ -15,75 +15,55 @@ interface Article {
 interface NewsData {
   lastUpdated: string;
   articles: Article[];
-  totalArticles: number;
 }
 
-export default function ArticlePage() {
-  const params = useParams();
-  const router = useRouter();
-  const [article, setArticle] = useState<Article | null>(null);
-  const [relatedArticles, setRelatedArticles] = useState<Article[]>([]);
-  const [loading, setLoading] = useState(true);
+function loadArticles(): Article[] {
+  const dataPath = path.join(process.cwd(), 'data', 'seo-news.json');
+  if (!fs.existsSync(dataPath)) return [];
+  const data: NewsData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  return data.articles || [];
+}
 
-  useEffect(() => {
-    fetch('/api/news')
-      .then(res => res.json())
-      .then((data: NewsData) => {
-        const articleId = parseInt(params.id as string);
-        const foundArticle = data.articles[articleId];
-        
-        if (foundArticle) {
-          setArticle(foundArticle);
-          
-          // Find related articles (same topic, excluding current)
-          const related = data.articles
-            .filter((a, idx) => a.query === foundArticle.query && idx !== articleId)
-            .slice(0, 3);
-          setRelatedArticles(related);
-        }
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Failed to load article:', err);
-        setLoading(false);
-      });
-  }, [params.id]);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const articles = loadArticles();
+  const article = articles[parseInt(id)];
+  if (!article) return { title: 'Article Not Found' };
+  return {
+    title: article.title,
+    description: article.description,
+  };
+}
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
-        <div className="text-white text-2xl">Loading article...</div>
-      </div>
-    );
-  }
+export default async function ArticlePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const articles = loadArticles();
+  const articleId = parseInt(id);
+  const article = articles[articleId] ?? null;
 
   if (!article) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
-        <div className="text-center">
-          <div className="text-white text-2xl mb-4">Article not found</div>
-          <button
-            onClick={() => router.push('/')}
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold transition"
-          >
-            ← Back to News Hub
-          </button>
-        </div>
-      </div>
-    );
+    notFound();
   }
+
+  const relatedArticles = articles
+    .filter((a, idx) => a.query === article.query && idx !== articleId)
+    .slice(0, 3);
+
+  const hostname = (() => {
+    try { return new URL(article.url).hostname; } catch { return article.url; }
+  })();
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
       {/* Header */}
       <header className="border-b border-white/10 bg-black/20 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <button
-            onClick={() => router.push('/')}
+          <Link
+            href="/"
             className="text-blue-400 hover:text-blue-300 font-medium transition flex items-center gap-2"
           >
             ← Back to SEO News Hub
-          </button>
+          </Link>
         </div>
       </header>
 
@@ -98,11 +78,11 @@ export default function ArticlePage() {
             🕐 {article.age}
           </span>
           <span className="text-gray-400 text-sm">
-            🔗 {new URL(article.url).hostname}
+            🔗 {hostname}
           </span>
         </div>
 
-        {/* Title */}
+        {/* H1 Title — visible in raw HTML for crawlers */}
         <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 leading-tight">
           {article.title}
         </h1>
@@ -115,7 +95,7 @@ export default function ArticlePage() {
           </p>
         </div>
 
-        {/* CTA Button */}
+        {/* CTA */}
         <div className="flex gap-4 mb-12">
           <a
             href={article.url}
@@ -125,13 +105,6 @@ export default function ArticlePage() {
           >
             Read Full Article →
           </a>
-          <button
-            onClick={() => navigator.clipboard.writeText(window.location.href)}
-            className="px-6 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl font-semibold transition"
-            title="Copy link to this summary"
-          >
-            📋 Share
-          </button>
         </div>
 
         {/* Related Articles */}
@@ -140,14 +113,12 @@ export default function ArticlePage() {
             <h2 className="text-2xl font-bold mb-6">Related Articles</h2>
             <div className="grid gap-4">
               {relatedArticles.map((related, idx) => {
-                const relatedId = article ? 
-                  (relatedArticles.indexOf(related) !== -1 ? 
-                    relatedArticles.indexOf(related) : idx) : idx;
+                const relatedIndex = articles.indexOf(related);
                 return (
-                  <button
+                  <Link
                     key={idx}
-                    onClick={() => router.push(`/article/${relatedId}`)}
-                    className="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500/50 hover:bg-white/10 transition-all text-left"
+                    href={`/article/${relatedIndex}`}
+                    className="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500/50 hover:bg-white/10 transition-all text-left block"
                   >
                     <h3 className="font-bold text-lg mb-2 line-clamp-2 hover:text-blue-400 transition">
                       {related.title}
@@ -155,7 +126,7 @@ export default function ArticlePage() {
                     <p className="text-sm text-gray-400 line-clamp-2">
                       {related.description}
                     </p>
-                  </button>
+                  </Link>
                 );
               })}
             </div>

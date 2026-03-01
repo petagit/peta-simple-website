@@ -47,7 +47,7 @@ function toArticle(raw: RawArticle, index: number) {
     categories: [raw.query],
     imageUrl: `/images/seo-news/${slug}.png`,
     description: raw.description,
-    content: '',
+    content: `<h1>${raw.title}</h1><h2>${raw.query}</h2><p>${raw.description}</p>`,
     // Original fields (kept for backwards compat)
     url: raw.url,
     query: raw.query,

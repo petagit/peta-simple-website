@@ -55,7 +55,7 @@ export async function GET(
       categories: [raw.query],
       imageUrl: `/images/seo-news/${slug}.png`,
       description: raw.description,
-      content: '',
+      content: `<h1>${raw.title}</h1><h2>${raw.query}</h2><p>${raw.description}</p>`,
       url: raw.url,
       query: raw.query,
       publishedAt: raw.publishedAt,
